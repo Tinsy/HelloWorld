@@ -1,0 +1,57 @@
+
+
+
+
+.button {
+border-radius: 5px;
+border: 2px splid #000FF;
+background-color: teal;
+height: 44px;
+width: 100px;
+margin: 15px; //auto;
+//padding: 25px;
+text-align:center, middle;
+vertical-align: text-middle;
+}
+
+* {
+text-align:center;
+}
+
+#player1 {
+text-align:left;
+color: green
+}
+
+#player2 {
+text-align: right;
+color: red;
+}
+
+
+#board {
+align: center
+color:pink;
+}
+
+
+.controls {
+text-align:left; 
+}
+
+a {
+text-decoration: none;
+color: #00FF00;
+font-family: TimesNewRoman;
+}
+
+
+span {
+font-weight: bold;
+font-size: 20px;
+color: #eeeeee;
+}
+
+.extra {
+visibility: hidden;
+}

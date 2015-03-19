@@ -1,28 +1,42 @@
 <html>
 <head>
 <title>3-na-ROW</title>
+<link type="text/css" rel="stylesheet" href="test.css"/>
 </head>
+
+
 <body>
 
 <header>
 <h1>3-na-ROW</h1>
 <header>
 
+<div id="controls">
 <h2>Controls</h2>
+<p class="button">START</p>
+<p class="button">RESET</p>
+</div>
+
 <ul>
 <li>New Game</li>
 <li>Scoreboard</li>
 </ul>
+</div>
 
+
+<div>
 <h2>Players</h2>
 <ul>
-<li>Player 1 <font color="purple">X</font></li>
-<li>Payer 2: <font color="magenta">O</font></li>
+<p id="player1">Player 1: <font color="purple">X</font></p>
+<p id="player2">Player 2: <font color="magenta">O</font></p>
 </ul>
+</div>
 
-<img src="board.png" />
-<img src="icon.png" />
-<img src="splash.png" />
+
+<div><img id="board" src="board.png" /></div>
+
+<img class="extra" src="icon.png" />
+<img class="extra" src="splash.png" />
 
 </body>
 </hml>
