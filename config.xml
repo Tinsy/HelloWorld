@@ -5,14 +5,14 @@
         id          = "edu.iupui.n300.TicTacToe"
         version     = "1.0.0" >
 
-    <name>Tic Tac Toe</name>
+    <name>3 N A Row</name>
 
     <description>
         A tic tac toe game
     </description>
 
-    <author href="https://github.com/ProfessorKevinForbes/TicTacToe4" email="professorkevinforbes@gmail.com">
-        Kevin Forbes
+    <author href="https://github.com/Tinsy/HelloWorld" email="syltinsy@hotmail.com">
+        SPJ
     </author>
 
 	<icon src="icon.png" />
@@ -20,7 +20,7 @@
 
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
-
+<!-- limits build-->
 
     <uses-sdk android:minSdkVersion="19"
               android:targetSdkVersion="19"
